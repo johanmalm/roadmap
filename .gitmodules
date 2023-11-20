@@ -1,0 +1,3 @@
+[submodule "ganttplay"]
+	path = ganttplay
+	url = https://github.com/johanmalm/ganttplay
