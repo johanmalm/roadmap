@@ -19,10 +19,13 @@ id      dur           start        finish       prog  row  pos   col     desc
 10      =F10-S10+1    2023-09-01   2023-09-17   100   1    a     m       "svg icons"
 11      =F11-S11+1    2023-09-01   2023-09-11   100   1    a     m       "layout agnostic keybinds"
 
+13      =F13-S13+1    2023-10-21   2023-10-28   100   1    a     m       "directional maximize"
+14      =F14-S14+1    2023-09-01   2023-10-13   100   1    a     m       "{Grow,Shrink}ToEdge"
 12      =F12-S12+1    2023-09-01   2023-10-01   100   1    a     m       "foreach action"
 
-21      =5*7          2023-12-01   =S21+D21-1   0     1    a     m       "hover buttons"
-20      =F20-S20+1    2023-10-09   2023-12-22   70    1    a     m       "pipemenus"
+21      =F21-S21+1    2023-12-01   2023-12-13   100   0    a     m       "hover buttons"
+22      =F22-S22+1    2023-12-11   2023-12-26   100   2    a     m       "placement policy"
+20      =F20-S20+1    2023-10-09   2024-01-15   70    1    a     m       "pipemenus"
 
 23      =5*7          =F51+1       =S23+D23-1   0     -3   a     m       "exit dialog"
 24      =5*7          =F23+1       =S23+D23-1   0     -1   a     m       "titleLayout"
