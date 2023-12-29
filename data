@@ -21,14 +21,19 @@ id      dur           start        finish       prog  row  pos   col     desc
 
 13      =F13-S13+1    2023-10-21   2023-10-28   100   1    a     m       "directional maximize"
 14      =F14-S14+1    2023-09-01   2023-10-13   100   1    a     m       "{Grow,Shrink}ToEdge"
-12      =F12-S12+1    2023-09-01   2023-10-01   100   1    a     m       "foreach action"
+12      =F12-S12+1    2023-09-01   2023-10-01   100   1    a     m       "Foreach action"
 
-21      =F21-S21+1    2023-12-01   2023-12-13   100   0    a     m       "hover buttons"
+21      =F21-S21+1    2023-12-01   2023-12-13   100   -1   a     m       "hover buttons"
+25      14            =F25-D25+1   2023-12-03   100   1    a     m       "fractional-scale-v1"
+26      14            =F26-D26+1   2023-11-28   100   1    a     m       "Omnipresent action"
+
 22      =F22-S22+1    2023-12-11   2023-12-26   100   2    a     m       "placement policy"
-20      =F20-S20+1    2023-10-09   2024-01-15   70    1    a     m       "pipemenus"
+27      =F27-S27+1    2023-10-31   2023-12-29   100   1    a     m       "drawing tablet support"
+20      =F20-S20+1    2023-10-09   2024-01-15   80    1    a     m       "pipemenus"
+
+50      =5*7          =F20+2       =S50+D50-1   5     0    a     y       "gtktheme: improve icon & color parsing"
+51      =5*7          =F50+1       =S51+D51-1   0     -1   a     y       "tweaks: convert to gtk4"
 
 23      =5*7          =F51+1       =S23+D23-1   0     -3   a     m       "exit dialog"
 24      =5*7          =F23+1       =S23+D23-1   0     -1   a     m       "titleLayout"
 
-50      =5*7          =F20+1       =S50+D50-1   5     6    a     y       "gtktheme: improve icon & color parsing"
-51      =5*7          =F50+1       =S51+D51-1   0     -1   a     y       "tweaks: convert to gtk4"
