@@ -33,7 +33,9 @@ id      dur           start        finish       prog  row  pos   col     desc
 30      =F30-S30+1    2023-09-01   2024-01-14   100   1    a     m       "ToggleShade"
 20      =F20-S20+1    2023-10-09   2024-03-16   81    1    a     m       "pipemenus"
 
-50      =5*7          =F20+2       =S50+D50-1   5     0    a     y       "gtktheme: improve icon & color parsing"
+31      =F31-S31+1    2024-02-14   2024-03-14   100   -10  a     m       "IME"
+
+50      =5*7          =F20+2       =S50+D50-1   5     10   a     y       "gtktheme: improve icon & color parsing"
 51      =5*7          =F50+1       =S51+D51-1   0     -1   a     y       "tweaks: convert to Qt6"
 
 28      =5*7          =F50+1       =S28+D28-1   0     -3   a     m       "max_disabled.xbm"
