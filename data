@@ -13,8 +13,10 @@ id      dur           start        finish       prog  row  pos   col     desc
 3       1             2023-12-22   =S3          100   0    a     m       "0.7.0"
 103     21            =F103-D103+1 =F4-2        100   0    a     grey    ""
 4       1             =F3+10*7     =S4+D4-1     100   0    a     m       "0.7.1"
-106     14            =F106-D106+1 =F5-2        0     0    a     grey    ""
+104     14            =F104-D104+1 =F5-2        0     0    a     grey    ""
 5       1             =F4+10*7     =S5+D5-1     0     0    a     m       "0.7.2"
+105     14            =F203+2      =S105+D105-1 0     0    a     grey    ""
+6       1             =F105+2      =S6+D6-1     0     0    a     m       "0.8.0"
 
 10      =F10-S10+1    2023-09-01   2023-09-17   100   1    a     m       "svg icons"
 11      =F11-S11+1    2023-09-01   2023-09-11   100   1    a     m       "layout agnostic keybinds"
@@ -31,9 +33,11 @@ id      dur           start        finish       prog  row  pos   col     desc
 22      =F22-S22+1    2023-12-11   2023-12-26   100   1    a     m       "placement policy"
 27      =F27-S27+1    2023-10-31   2024-01-02   100   1    a     m       "drawing tablet mouse emulation"
 30      =F30-S30+1    2023-09-01   2024-01-14   100   1    a     m       "ToggleShade"
-20      =F20-S20+1    2023-10-09   2024-03-16   81    1    a     m       "pipemenus"
+20      =F20-S20+1    2023-10-09   2024-03-25   100   1    a     m       "pipemenus"
 
-31      =F31-S31+1    2024-02-14   2024-03-14   100   -10  a     m       "IME"
+31      =F31-S31+1    2024-02-14   2024-03-14   100   -10  a     m       "imput method"
+32      =F32-S32+1    2024-01-18   2024-04-22   80    1    a     m       "drop shadows"
+33      =F33-S33+1    2024-03-05   2024-03-31   50    1    a     m       "snap overlay"
 
 50      =5*7          =F20+2       =S50+D50-1   5     10   a     y       "gtktheme: improve icon & color parsing"
 51      =5*7          =F50+1       =S51+D51-1   0     -1   a     y       "tweaks: convert to Qt6"
