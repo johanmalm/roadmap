@@ -37,12 +37,12 @@ id      dur           start        finish       prog  row  pos   col     desc
 
 31      =F31-S31+1    2024-02-14   2024-03-14   100   -10  a     m       "imput method"
 32      =F32-S32+1    2024-01-18   2024-04-22   80    1    a     m       "drop shadows"
-33      =F33-S33+1    2024-03-05   2024-03-31   50    1    a     m       "snap overlay"
+33      =F33-S33+1    2024-03-05   2024-04-05   100   1    a     m       "snap overlay"
+34      =F34-S34+1    2024-04-10   2024-04-23   2     1    a     m       "menu headers"
 
-50      =5*7          =F20+2       =S50+D50-1   5     10   a     y       "gtktheme: improve icon & color parsing"
-51      =5*7          =F50+1       =S51+D51-1   0     -1   a     y       "tweaks: convert to Qt6"
+50      =5*7          =F20+2       =S50+D50-1   50    8    a     y       "tweaks: convert to Qt6"
 
 28      =5*7          =F50+1       =S28+D28-1   0     -3   a     m       "max_disabled.xbm"
-23      =5*7          =F51+1       =S23+D23-1   0     -1   a     m       "exit dialog"
+23      =5*7          =F28+1       =S23+D23-1   0     -1   a     m       "exit dialog"
 24      =5*7          =F23+1       =S23+D23-1   0     -1   a     m       "titleLayout"
 
