@@ -1,9 +1,10 @@
 id      dur           start        finish       prog  row  pos   col     desc
 
-202     1             2024-06-30   =S202+D202-1 0     0    a     grey    "wlroots 0.18"
+202     1             2024-07-15   =S202+D202-1 0     0    a     grey    "wlroots 0.18"
 203     =4*7          =F202+2      =S203+D203-1 0     0    e     c       ""
 
-1       1             2024-05-10   =S1+D1-1     100   1    a     m       "0.7.2"
+0       =F0-S0+1      2024-05-01   =S1-2        100   1    a     grey    ""
+1       1             2024-05-10   =S1+D1-1     100   0    a     m       "0.7.2"
 2       14            =F2-D2+1     =S3-2        0     0    a     grey    ""
 3       1             =F1+63       =S3+D3-1     0     0    a     m       "0.7.3"
 
@@ -14,13 +15,13 @@ id      dur           start        finish       prog  row  pos   col     desc
 14      14            =F13+70      =S14+D14-1   0     0    a     grey    ""
 15      1             =F14+2       =S15+D15-1   0     0    a     m       "0.8.2"
 
-21      =F21-S21+1    2024-05-01   2024-05-15   100   1    a     m       "magnifier (#1774)"
-22      =F22-S22+1    2024-05-01   2024-05-27   100   1    a     m       "tablet-v2-manager (#1678)"
-23      =F23-S23+1    2024-05-01   2024-06-09   100   1    a     m       "on-release keybind (#1888)"
+21      =F21-S21+1    2024-05-01   2024-05-15   100   1    a     m       " magnifier (#1774)"
+22      =F22-S22+1    2024-05-01   2024-05-27   100   1    a     m       " tablet-v2-manager (#1678)"
+23      =F23-S23+1    2024-05-01   2024-06-09   100   1    a     m       " on-release keybind (#1888)"
 
 30      =5*7          2024-06-30   =S30+D30-1   0     1    a     m       "menu size contraint"
 
-29      =5*7          =F11+1       =S29+D29-1   0     1    a     y       "split big .c files"
+29      =5*7          =F11+1       =S29+D29-1   0     -3   a     y       "split big .c files"
 
 34      =5*7          =F29+1       =S34+D34-1   0     1    a     m       "menu headers"
 31      =5*7          =F34+1       =S31+D31-1   0     1    a     m       "exit dialog"
