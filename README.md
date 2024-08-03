@@ -1,3 +1,14 @@
-Roadmap for `labwc`
+# Roadmap
 
-See https://github.com/johanmalm/roadmap/issues/1#issue-1901685074
+Roadmap for `labwc` showing intentions for most noteworthy new features.
+
+# Current
+
+<img src="Figure_1.png"/>
+
+# Historic
+
+### Sep 2023 - May 2024
+
+<img src="snapshots/2309-2405/schedule.png"/>
+
