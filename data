@@ -12,7 +12,7 @@ id      dur           start        finish       prog  row  pos   col     desc
 
 10      7             =F10-D10+1   =S11-2       100   0    a     grey    ""
 11      1             2024-08-16   =S11+D11-1   100   0    a     m       "0.8.0"
-12      14            =F12-D12+1   =S13-2       0     0    a     grey    ""
+12      14            =F12-D12+1   =S13-2       -1    0    a     grey    ""
 13      1             =F11+70      =S13+D13-1   0     0    a     m       "0.8.1"
 14      14            =F14-D14+1   =S15-2       0     0    a     grey    ""
 15      1             =F13+70      =S15+D15-1   0     0    a     m       "0.8.2"
@@ -21,15 +21,14 @@ id      dur           start        finish       prog  row  pos   col     desc
 22      =F22-S22+1    2024-05-01   2024-05-27   100   1    a     m       " tablet-v2-manager (#1678)"
 23      =F23-S23+1    2024-05-01   2024-06-09   100   1    a     m       " on-release keybind (#1888)"
 24      =F24-S24+1    2024-05-09   2024-08-19   100   1    a     m       "menu headers (#1976)"
+
+29      =F29-S29+1    2024-07-15   2024-10-01   -1    1    a     m       "cosmic-workspace protocol (#2030)"
 25      =F25-S25+1    2024-07-26   2024-09-17   100   1    a     m       "client-list-combined-menu (#2101)"
+32      =F32-S32+1    2024-08-10   2024-09-24   -1    1    a     m       "titleLayout (#2088 + #2150)"
+35      =F35-S35+1    2024-09-01   2024-09-25   -1    1    a     m       "window-icons (#2128)"
+34      =F34-S34+1    2024-08-13   2024-12-31   -1    1    a     y       "YAML config CLI tool"
 
-29      =F29-S29+1    2024-07-15   2024-10-10   -1    1    a     m       "cosmic-workspace protocol (#2030)"
-
-32      =F32-S32+1    2024-08-10   2024-09-23   -1    1    a     m       "titleLayout (#2088 + #2150)"
-35      =F35-S35+1    2024-09-01   2024-10-31   -1    1    a     m       "window-icons (#2128)"
-34      =F34-S34+1    2024-08-13   2024-10-20   -1    1    a     y       "YAML config CLI tool"
-
-31      =5*7          =F34+2       =S31+D31-1   -1    -7   a     m       "exit dialog"
+31      =5*7          2024-11-01   =S31+D31-1   -1    -7   a     m       "exit dialog"
 33      =5*7          =F31+2       =S33+D33-1   0     1    a     m       "max_disabled.xbm"
 
 40      =5*7          =F33+2       =S40+D40-1   0     1    a     m       "gnome style window-switcher"
