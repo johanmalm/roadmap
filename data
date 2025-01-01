@@ -2,7 +2,7 @@ id      dur           start        finish       prog  row  pos   col     desc
 
 202     1             2024-07-12   =S202+D202-1 100   0    a     m       "wlroots 0.18"
 203     =F203-S203+1  =F202+2      2024-07-17   100   0    e     c       ""
-204     1             =F13+70      =S204+D204-1 0     0    a     m       "wlroots 0.19"
+204     1             =F17         =S204+D204-1 0     0    a     m       "wlroots 0.19"
 205     21            =F204+2      =S204+D204-1 0     0    e     c       ""
 
 0       =F0-S0+1      2024-05-01   =S1-2        100   1    a     grey    ""
@@ -13,12 +13,12 @@ id      dur           start        finish       prog  row  pos   col     desc
 10      7             =F10-D10+1   =S11-2       100   0    a     grey    ""
 11      1             2024-08-16   =S11+D11-1   100   0    a     m       "0.8.0"
 12      14            =F12-D12+1   =S13-2       -1    0    a     grey    ""
-13      1             =F11+70      =S13+D13-1   0     0    a     m       "0.8.1"
-14      14            =F14-D14+1   =S15-2       -1    0    a     grey    ""
-15      1             =F13+49      =S15+D15-1   0     0    a     m       "0.8.2"
-16      14            =F16-D16+1   =S17-2       -1    0    a     grey    ""
-17      1             =F15+49      =S17+D17-1   0     0    a     m       "0.8.3"
-18      14            =F18-D18+1   =S19-2       -1    0    a     grey    ""
+13      1             =F11+70      =S13+D13-1   -1    0    a     m       "0.8.1"
+14      14            2024-11-28   =S14+D14-1   -1    0    a     grey    ""
+15      1             2024-12-13   2024-12-13   -1    0    a     m       "0.8.2"
+16      13            =F16-D16+1   =S17-2       -1    0    a     grey    ""
+17      1             =F15+70      =S17+D17-1   0     0    a     m       "0.8.3"
+18      13            =F18-D18+1   =S19-2       -1    0    a     grey    ""
 19      1             =F17+49      =S19+D19-1   0     0    a     m       "0.9.0"
 
 21      =F21-S21+1    2024-05-01   2024-05-15   100   1    a     m       " magnifier (#1774)"
@@ -31,15 +31,16 @@ id      dur           start        finish       prog  row  pos   col     desc
 32      =F32-S32+1    2024-08-10   2024-09-24   -1    1    a     m       "titleLayout (#2088 + #2150)"
 35      =F35-S35+1    2024-09-01   2024-09-25   -1    1    a     m       "window-icons (#2128)"
 
-40      =F40-S40+1    2024-09-08   2025-01-15   -1    1    a     m       "window-switcher thumbnails"
+40      =F40-S40+1    2024-09-08   2025-02-28   -1    1    a     m       "window-switcher thumbnails"
 
 50      =F50-S50+1    2024-10-13   2024-11-10   -1    -8   1     m       "improved handling of touch events (#2273)"
 51      =F51-S51+1    2024-07-30   2024-11-09   -1    1    1     m       "ext-toplevel-list protocol (#2072)"
-52      =F52-S52+1    2024-11-01   2024-11-29   -1    1    1     m       "menu borders (#2376)"
-53      =5*7          =F52+2       =S53+D53-1   -1    1    1     m       "menu padding"
-
-
-31      =5*7          =F40+2       =S31+D31-1   0     1    a     m       "exit dialog"
+52      =F52-S52+1    2024-11-01   2024-11-27   -1    1    1     m       "menu borders (#2376)"
+54      =F54-S54+1    2024-11-05   2024-12-23   -1    1    1     m       "ext-workspaces (#2365)"
+31      =11*7         2024-12-16   =S31+D31-1   -1    1    a     m       "exit dialog"
+53      =5*7          =F31+2       =S53+D53-1   -1    1    1     m       "menu padding"
 33      =5*7          =F31+2       =S33+D33-1   0     1    a     m       "max_disabled.xbm"
-34      =F34-S34+1    2024-08-13   2024-12-31   -1    4    a     y       "YAML config CLI tool"
+36      =5*7          =F31+2       =S36+D36-1   0     1    a     m       "bullet.xbm"
+
+34      =F34-S34+1    2024-08-13   2025-02-28   -1    2    a     y       "YAML config CLI tool"
 
