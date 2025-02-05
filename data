@@ -33,12 +33,13 @@ id      dur           start        finish       prog  row  pos   col     desc
 
 40      =F40-S40+1    2024-09-08   2025-02-28   -1    1    a     m       "window-switcher thumbnails"
 
-50      =F50-S50+1    2024-10-13   2024-11-10   -1    -8   1     m       "improved handling of touch events (#2273)"
-51      =F51-S51+1    2024-07-30   2024-11-09   -1    1    1     m       "ext-toplevel-list protocol (#2072)"
-52      =F52-S52+1    2024-11-01   2024-11-27   -1    1    1     m       "menu borders (#2376)"
-54      =F54-S54+1    2024-11-05   2024-12-23   -1    1    1     m       "ext-workspaces (#2365)"
+50      =F50-S50+1    2024-10-13   2024-11-10   -1    -8   a     m       "improved handling of touch events (#2273)"
+51      =F51-S51+1    2024-07-30   2024-11-09   -1    1    a     m       "ext-toplevel-list protocol (#2072)"
+52      =F52-S52+1    2024-11-01   2024-11-27   -1    1    a     m       "menu borders (#2376)"
+54      =F54-S54+1    2024-11-05   2024-12-23   -1    1    a     m       "ext-workspaces (#2365)"
+55      =F55-S55+1    2024-12-29   2025-02-02   -1    1    a     m       "menu icons (#2509)"
 31      =11*7         2024-12-16   =S31+D31-1   -1    1    a     m       "exit dialog"
-53      =5*7          =F31+2       =S53+D53-1   -1    1    1     m       "menu padding"
+53      =5*7          =F31+2       =S53+D53-1   -1    1    a     m       "menu padding"
 33      =5*7          =F31+2       =S33+D33-1   0     1    a     m       "max_disabled.xbm"
 36      =5*7          =F31+2       =S36+D36-1   0     1    a     m       "bullet.xbm"
 
