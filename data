@@ -1,11 +1,11 @@
 id      dur           start        finish       prog  row  pos   col     desc
 
-204     1             2025-05-11   =S204+D204-1 0     0    a     m       "wlroots 0.19"
-205     21            =F204+2      =S205+D205-1 0     0    e     c       ""
+204     1             2025-05-15   =S204+D204-1 100   0    a     m       "wlroots 0.19"
+205     =F205-S205+1  =F204+2      2025-05-21   -1    0    e     c       ""
 
 302     1             2025-05-02   =S302+D302-1 -1    1    a     m       "0.8.4"
 
-303     13            =F205+2      =S303+D303-1 -1    0    a     grey    ""
+303     13            =F302+8*7    =S303+D303-1 -1    0    a     grey    ""
 304     1             =F303+2      =S304+D304-1  0    0    a     m       "0.9.0"
 
 305     13            =F305-D305+1 =F306-2      -1    0    a     grey    ""
@@ -14,8 +14,8 @@ id      dur           start        finish       prog  row  pos   col     desc
 307     13            =F307-D307+1 =F308-2      -1    0    a     grey    ""
 308     1             =F306+70     =S308+D308-1 -1    0    a     m       "0.9.2"
 
+61      =F61-S61+1    2025-05-01   2025-05-06   100   1    a     m       "cursor scroll emulation (#2678)"
 31      =F31-S31+1    2025-05-01   2025-07-31   -1    1    a     m       "exit dialog (#2699)"
-61      =F61-S61+1    2025-05-01   2025-07-31   -1    1    a     m       "cursor scroll emulation (#2678)"
 60      =F60-S60+1    2025-05-01   2025-07-31   -1    1    a     m       "vertical titlebar gradients (#2686)"
 53      =5*7          =F31+2       =S53+D53-1   -1    1    a     m       "menu padding"
 33      =5*7          =F53+2       =S33+D33-1   0     1    a     m       "max_disabled.xbm"
