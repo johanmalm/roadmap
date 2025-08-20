@@ -20,8 +20,6 @@ id      dur           start        finish       prog  row  pos   col     desc
 74      =F74-S74+1    2025-06-01   2025-06-13   100   1    a     m       "ext-data-control and alpha-modifier protocols (#2829)"
 73      =F73-S73+1    2025-06-01   2025-06-18   100   1    a     m       "_NET_WM_ICON property (#2840)"
 60      =F60-S60+1    2025-05-01   2025-06-18   -1    1    a     m       "vertical titlebar gradients (#2686)"
-31      =F31-S31+1    2025-05-01   2025-08-31   -1    1    a     m       "exit dialog (#2699)"
-53      =5*7          =F31+2       =S53+D53-1   -1    1    a     m       "menu padding"
-33      =5*7          =F53+2       =S33+D33-1   0     1    a     m       "max_disabled.xbm"
-36      =5*7          =F33+2       =S36+D36-1   0     1    a     m       "bullet.xbm"
+31      =F31-S31+1    2025-05-01   2025-08-09   -1    1    a     m       "exit dialog (#2699)"
+32      =F32-S32+1    2025-07-15   2025-09-15   -1    1    a     m       "window-switcher thumbnails (#2981)"
 
