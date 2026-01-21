@@ -14,7 +14,10 @@ id      dur           start        finish       prog  row  pos   col     desc
 308     1             2025-10-10   =S308+D308-1 100   0    a     y       "0.9.2"
 
 309     13            =F309-D309+1 =F310-2      0     0    a     grey    ""
-310     1             =F308+70     =S310+D310-1 100   0    a     y       "0.9.3"
+310     1             2025-12-19   =S310+D310-1 100   0    a     y       "0.9.3"
+
+311     13            =F311-D311+1 =F312-2      0     0    a     grey    ""
+312     1             =F310+70     =S310+D310-1 0     0    a     y       "0.9.4"
 
 61      =F61-S61+1    2025-05-01   2025-05-06   100   1    a     m       "cursor scroll emulation (#2678)"
 71      =F71-S71+1    2025-05-20   2025-05-22   100   1    a     m       "drm-syncobj protocol (#2737)"
@@ -25,4 +28,5 @@ id      dur           start        finish       prog  row  pos   col     desc
 60      =F60-S60+1    2025-05-01   2025-06-18   -1    1    a     m       "vertical titlebar gradients (#2686)"
 31      =F31-S31+1    2025-05-01   2025-08-09   -1    1    a     m       "exit dialog (#2699)"
 32      =F32-S32+1    2025-07-15   2025-08-29   -1    1    a     m       "window-switcher thumbnails (#2981)"
+33      =F33-S33+1    2025-10-20   2025-11-04   100   0    a     m       "OSD pointer interaction (#3186)"
 
