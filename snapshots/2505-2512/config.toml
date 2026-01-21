@@ -1,0 +1,9 @@
+[schedule]
+start_date = 2025-05-01
+finish_date = 2025-12-31
+legend = "grey:cool-down,c:port,m:new feature,y:release"
+title = ""
+
+[plot]
+width = 12
+height = 10

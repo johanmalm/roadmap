@@ -8,6 +8,10 @@ Roadmap for `labwc` showing intentions for most noteworthy new features.
 
 # Historic
 
+### May 2025 - Dec 2025
+
+<img src="snapshots/2505-2512/schedule.png"/>
+
 ### May 2024 - May 2025
 
 <img src="snapshots/2405-2505/schedule.png"/>
